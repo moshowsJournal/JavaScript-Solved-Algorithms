@@ -6,7 +6,7 @@ For each game, you will get an array of clouds numbered 0 if they are safe or 1 
 Example
 
 c = [0,1,0,0,0,1,0]
-Index the array from 0 ... 6. The number on each cloud is its index in the list so the player must avoid the clouds at indices 1 and 5. They could follow these two paths: 0 - 2 - 4 - 6 or 0 - 2 - 3 - 4 - 6 or . The first path takes  jumps while the second takes 4. Return 3.
+Index the array from 0 ... 6. The number on each cloud is its index in the list so the player must avoid the clouds at indices 1 and 5. They could follow these two paths: 0 - 2 - 4 - 6 or 0 - 2 - 3 - 4 - 6 or . The first path takes 3 jumps while the second takes 4. Return 3.
 
 **/
 
